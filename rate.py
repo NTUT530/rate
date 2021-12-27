@@ -37,8 +37,7 @@ def standard(gold_in,note):
     st=gold_in
 
 #function
-j=0
-while j==0:
+while True:
     local_time = time.ctime(time.time())
     url="https://rate.bot.com.tw/gold?Lang=zh-TW" ###
     with request.urlopen(url) as response :
