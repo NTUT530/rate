@@ -1,3 +1,4 @@
+import steamlit as st
 import time
 import urllib.request as request
 from bs4 import BeautifulSoup as sp
